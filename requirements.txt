@@ -1,0 +1,18 @@
+Python Extensions & Libraries Used
+
+yfinance – Fetching stock market data.
+time – Handling time-based operations.
+numpy – Numerical computations.
+pandas – Data manipulation and analysis.
+scikit-learn (sklearn.preprocessing.MinMaxScaler) – Data normalization.
+tensorflow & keras – Building and training deep learning models (LSTM).
+matplotlib.pyplot – Data visualization.
+alpaca-trade-api – Stock market trading and financial data API.
+
+
+Technologies Used:
+
+Machine Learning (LSTM Model): Implemented using TensorFlow/Keras.
+Financial Data Analysis: Using yfinance and alpaca_trade_api to fetch stock market data.
+Data Preprocessing: Normalization via MinMaxScaler.
+Visualization: matplotlib for plotting stock price trends  
