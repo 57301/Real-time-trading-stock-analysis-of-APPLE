@@ -1,0 +1,25 @@
+Results & Analysis of Stock Market Prediction Using LSTM:
+
+1. Data Processing & Preparation
+The dataset was collected from Yahoo Finance (yfinance) and Alpaca API.
+Data preprocessing included scaling stock prices using MinMaxScaler, which helps improve model accuracy.
+The dataset was split into training and testing sets, ensuring the model learns from past trends and generalizes well to new data.
+
+2. LSTM Model Training & Performance
+The model architecture was built using Long Short-Term Memory (LSTM) layers from TensorFlow/Keras.
+The model was trained using historical stock prices, optimizing for minimized loss.
+Loss function (e.g., MSE or RMSE) was used to evaluate the model’s performance, showing how well predictions matched actual stock prices.
+
+3. Stock Price Prediction Results
+The model successfully captured stock price trends but may have shown some variations due to market volatility.
+Prediction accuracy: The predicted values closely followed the actual stock prices, demonstrating the model’s effectiveness in short-term forecasting.
+The visualization using matplotlib showed a smooth trend line, with some deviations that indicate market fluctuations.
+
+4. Insights & Limitations
+✅ Strengths:
+LSTM effectively recognizes patterns in time-series data and learns long-term dependencies.
+Predictions are fairly accurate when stock prices follow historical trends.
+
+⚠️ Limitations:
+Stock market is highly volatile, and real-world factors (news, economic events) impact prices, which LSTM alone cannot predict.
+Model performance depends on data quality—inaccurate or incomplete data can lead to less reliable predictions.
