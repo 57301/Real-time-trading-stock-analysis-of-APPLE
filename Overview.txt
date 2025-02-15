@@ -1,0 +1,13 @@
+Overview:
+This project focuses on predicting stock prices using a Long Short-Term Memory (LSTM) neural network. It utilizes financial data from Yahoo Finance (yfinance) and Alpaca API to analyze stock trends, preprocess data, and train an AI model for forecasting future stock prices.
+
+Key Features:
+
+Stock Data Collection: Fetches real-time and historical stock market data from Yahoo Finance and Alpaca API.
+Data Preprocessing: Uses pandas for data manipulation and MinMaxScaler to normalize stock prices for better model performance.
+Machine Learning Model: Implements an LSTM model using TensorFlow/Keras to analyze stock trends and predict future prices.
+Visualization: Displays stock price trends using matplotlib for better insights.
+Technologies Used
+Python (pandas, numpy, matplotlib)
+Machine Learning (TensorFlow, LSTM model)
+Stock Market APIs (Yahoo Finance, Alpaca Trade API)
